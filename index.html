@@ -216,10 +216,6 @@
     .portfolio-card h3{font-size:1.35rem}
     .portfolio-card p{color:var(--ink-soft);font-size:.95rem;flex:1}
     .portfolio-footer{display:flex;justify-content:space-between;align-items:center;font-size:12.5px;color:var(--gold-soft);font-weight:600;padding-top:12px;border-top:1px solid var(--line)}
-    .portfolio-card.featured{grid-column:span 3;flex-direction:row;flex-wrap:wrap;align-items:center;gap:20px 40px;background:linear-gradient(120deg,rgba(200,168,106,.08),var(--card))}
-    .portfolio-card.featured h3{font-size:1.7rem;flex-basis:100%}
-    .portfolio-card.featured p{flex:1 1 340px;font-size:1.02rem}
-    .portfolio-card.featured .portfolio-footer{border:0;padding:0}
     .portfolio-note{margin-top:36px}
     .portfolio-note p{color:var(--ink-mute);font-size:.9rem;max-width:80ch;font-family:var(--mono);line-height:1.7;letter-spacing:.01em}
 
@@ -317,7 +313,6 @@
       .mobile-menu.open{display:flex}
       .hero-grid,.two-col,.section-topline,.dual-value,.impact-layout,.contact-inner{grid-template-columns:1fr}
       .value-grid,.portfolio-grid,.process-grid,.remote-cards,.leadership-grid,.impact-list{grid-template-columns:1fr 1fr}
-      .portfolio-card.featured{grid-column:span 1;flex-direction:column;align-items:flex-start}
       .cap-row{grid-template-columns:40px 1fr;gap:8px 16px}
       .cap-row p{grid-column:2}
     }
@@ -509,12 +504,18 @@
             <p>A digital workflow helping entrepreneurs and professionals structure business valuation, collect relevant data and produce clearer analytical outputs.</p>
             <div class="portfolio-footer"><span>Automation &amp; product architecture</span><span>↗</span></div>
           </a>
-          <a class="portfolio-card featured reveal" href="https://ipo-arena.com/" target="_blank" rel="noopener">
-            <div class="portfolio-meta" style="flex-basis:100%"><span>CAPITAL MARKETS</span><span>EUROPE</span></div>
+          <a class="portfolio-card reveal" href="https://ipo-arena.com/" target="_blank" rel="noopener">
+            <div class="portfolio-meta"><span>CAPITAL MARKETS</span><span>EUROPE</span></div>
             <h3>IPO Arena</h3>
             <p>An intelligence and research platform dedicated to initial public offerings, spin-offs and listed-market transactions — combining structured data, red-flag analysis and educational insight.</p>
             <div class="portfolio-footer"><span>New venture development</span><span>↗</span></div>
           </a>
+          <div class="portfolio-card reveal">
+            <div class="portfolio-meta"><span>EVENT TECH</span><span>EUROPE</span></div>
+            <h3>RSVP please</h3>
+            <p>A simple event invitation and RSVP platform helping hosts send invitations, collect replies and keep track of their guests in one place.</p>
+            <div class="portfolio-footer"><span>New venture development</span><span>Soon</span></div>
+          </div>
         </div>
 
         <div class="portfolio-note reveal">
